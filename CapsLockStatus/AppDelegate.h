@@ -8,7 +8,12 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface AppDelegate : NSObject <NSApplicationDelegate>
+#define CLS_POLL_INTERVAL       0.1
+
+#define CLS_STATUS_TEXT_OFF     @"az"
+#define CLS_STATUS_TEXT_ON      @"AZ"
+
+@interface AppDelegate : NSResponder <NSApplicationDelegate>
 
 
 @end
